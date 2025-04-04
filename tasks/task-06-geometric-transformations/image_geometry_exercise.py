@@ -28,6 +28,7 @@ The return value should be like:
 """
 
 import numpy as np
+import matplotlib.pyplot as plt
 
 def translate(img: np.ndarray, shift_x: int, shift_y: int) -> np.ndarray:
     h, w = img.shape
